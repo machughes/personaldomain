@@ -24,9 +24,9 @@ Edit `_config.yml` and change the `bio:` and `linkedin:` lines.
 
 ## Colors and fonts
 
-The "Sea glass" theme: seafoam green leads, and everything else is a soft green-tinted neutral.
+The "Harbor slate" theme: sky blue leads, and everything else is a cool slate neutral.
 All colors are defined at the top of `assets/css/style.css`, with a matching dark theme just below
 that the site switches to when a visitor's device is in dark mode.
 
-- Background `#f7faf8`, text `#18241e`, deep seafoam `#1f7a52`, seafoam `#93e9be`
-- Headings: Instrument Serif. Post text: Source Serif 4. Small labels: Figtree. All from Google Fonts.
+- Background `#f6f7f9`, text `#1a2230`, deep sky `#2f5d8a`, sky `#93bee9`
+- Headings and small labels: Schibsted Grotesk. Post text: Literata. Both from Google Fonts.

@@ -1,9 +1,8 @@
 ---
 layout: default
 ---
-{% assign name_parts = site.author | split: ' ' %}
 <section class="hero">
-  <h1>{% for part in name_parts %}{% if forloop.last and forloop.length > 1 %}<em>{{ part }}</em>{% else %}{{ part }} {% endif %}{% endfor %}</h1>
+  <h1>{{ site.author }}</h1>
   <p class="bio">{{ site.bio }}</p>
   {% if site.linkedin != "" %}
   <a class="button" href="{{ site.linkedin }}" rel="me noopener">Connect on LinkedIn</a>
