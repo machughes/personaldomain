@@ -1,0 +1,20 @@
+---
+layout: default
+---
+<section class="hero">
+  <h1>{{ site.author }}</h1>
+  <p class="bio">{{ site.bio }}</p>
+  {% if site.linkedin != "" %}
+  <a class="button" href="{{ site.linkedin }}" rel="me noopener">Connect on LinkedIn</a>
+  {% endif %}
+</section>
+
+<section>
+  <h2>Recent posts</h2>
+  {% if site.posts.size > 0 %}
+    {% include post-list.html posts=site.posts limit=5 %}
+    <p><a href="{{ '/blog/' | relative_url }}">See all posts &rarr;</a></p>
+  {% else %}
+    <p>No posts yet.</p>
+  {% endif %}
+</section>

@@ -1,0 +1,39 @@
+# ---------------------------------------------------------------
+# Site settings — edit the values below to change what the site says.
+# ---------------------------------------------------------------
+title: McCaslin Hughes
+author: McCaslin Hughes
+description: Writing and notes from McCaslin Hughes.
+
+# Short bio shown on the home page (one or two sentences).
+bio: >-
+  A short bio is coming soon.
+
+# Your LinkedIn profile address. Leave empty ("") to hide the link.
+linkedin: ""
+
+url: "https://mccaslinhughes.com"
+baseurl: ""
+
+# ---------------------------------------------------------------
+# Technical settings — no need to change these.
+# ---------------------------------------------------------------
+permalink: /blog/:year/:month/:day/:title/
+markdown: kramdown
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+  - scope:
+      path: ""
+    values:
+      layout: default
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
