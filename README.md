@@ -22,7 +22,11 @@ Edit `_config.yml` and change the `bio:` and `linkedin:` lines.
 
 4. Click **Commit changes**. The site updates by itself within a minute or two.
 
-## Colors
+## Colors and fonts
 
-A tetradic palette built around seafoam green, defined at the top of `assets/css/style.css`:
-seafoam `#93e9be`, sky `#93bee9`, rose `#e993be` and apricot `#e9be93`.
+The "Sea glass" theme: seafoam green leads, and everything else is a soft green-tinted neutral.
+All colors are defined at the top of `assets/css/style.css`, with a matching dark theme just below
+that the site switches to when a visitor's device is in dark mode.
+
+- Background `#f7faf8`, text `#18241e`, deep seafoam `#1f7a52`, seafoam `#93e9be`
+- Headings: Instrument Serif. Post text: Source Serif 4. Small labels: Figtree. All from Google Fonts.

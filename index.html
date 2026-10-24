@@ -1,8 +1,9 @@
 ---
 layout: default
 ---
+{% assign name_parts = site.author | split: ' ' %}
 <section class="hero">
-  <h1>{{ site.author }}</h1>
+  <h1>{% for part in name_parts %}{% if forloop.last and forloop.length > 1 %}<em>{{ part }}</em>{% else %}{{ part }} {% endif %}{% endfor %}</h1>
   <p class="bio">{{ site.bio }}</p>
   {% if site.linkedin != "" %}
   <a class="button" href="{{ site.linkedin }}" rel="me noopener">Connect on LinkedIn</a>
@@ -10,10 +11,10 @@ layout: default
 </section>
 
 <section>
-  <h2>Recent posts</h2>
+  <h2 class="section-heading label">Recent writing</h2>
   {% if site.posts.size > 0 %}
     {% include post-list.html posts=site.posts limit=5 %}
-    <p><a href="{{ '/blog/' | relative_url }}">See all posts &rarr;</a></p>
+    <p class="more"><a href="{{ '/blog/' | relative_url }}">All posts &rarr;</a></p>
   {% else %}
     <p>No posts yet.</p>
   {% endif %}
