@@ -5,9 +5,14 @@ title: McCaslin Hughes
 author: McCaslin Hughes
 description: Writing and notes from McCaslin Hughes.
 
-# Short bio shown on the home page (one or two sentences).
+# Short bio shown on the home page, under your name.
 bio: >-
-  A short bio is coming soon.
+  I'm Mac, a Power Platform solution architect who started out in accounting
+  and supply chain planning before falling into low-code development. These
+  days I spend my time designing apps, flows, and AI-powered solutions on
+  Microsoft 365, Copilot Studio, and Azure SQL. This blog is where I share what
+  I learn: new features worth trying, workarounds for things that break, and
+  experiments with AI-assisted development.
 
 # Your LinkedIn profile address. Leave empty ("") to hide the link.
 linkedin: ""
