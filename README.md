@@ -22,7 +22,11 @@ Edit `_config.yml` and change the `bio:` and `linkedin:` lines.
 
 4. Click **Commit changes**. The site updates by itself within a minute or two.
 
-## Colors
+## Colors and fonts
 
-A tetradic palette built around seafoam green, defined at the top of `assets/css/style.css`:
-seafoam `#93e9be`, sky `#93bee9`, rose `#e993be` and apricot `#e9be93`.
+The "Harbor slate" theme: sky blue leads, and everything else is a cool slate neutral.
+All colors are defined at the top of `assets/css/style.css`, with a matching dark theme just below
+that the site switches to when a visitor's device is in dark mode.
+
+- Background `#f6f7f9`, text `#1a2230`, deep sky `#2f5d8a`, sky `#93bee9`
+- Headings and small labels: Schibsted Grotesk. Post text: Literata. Both from Google Fonts.
